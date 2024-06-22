@@ -4,7 +4,6 @@ export { default as CompaniesImage} from "src/assets/Companies.jpg";
 export { default as MobileCrane} from "src/assets/MobileCrane.png";
 export {default as FooterBackgroundImage} from "src/assets/footer-background-image.svg";
 export { default as Foundation } from 'src/assets/Foundation.jpg';
-
 export { default as MainLogo } from 'src/assets/MainLogo.png';
 export { default as FooterMainLogo } from 'src/assets/FooterLogo.png';
 export { default as TowerCraneImage } from 'src/assets/ToweCrane.png';

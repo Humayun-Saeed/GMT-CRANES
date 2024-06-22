@@ -28,6 +28,8 @@ jobs:
         server:  ftp.gmtcranes.com
         username: gmt@gmtcranes.com
         password: gmtcranes786
+        protocol: ftps
+
 
 
        

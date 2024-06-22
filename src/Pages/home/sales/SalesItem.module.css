@@ -1,0 +1,19 @@
+.swiper-container {
+  @apply  w-[80%]  mt-[2rem]
+}
+
+.swiper-img {
+    @apply h-full max-w-full w-full  object-contain;
+  }
+
+  .slider {
+    @apply grid w-full h-full p-[4px] md:p-[8px] cursor-grab active:cursor-grabbing
+  }
+
+  .sale-item {
+    @apply flex flex-col  mx-auto pb-[1rem] h-[16rem] max-w-[18rem]
+  }
+
+  .swiper-company-img{
+    @apply h-[6rem] w-[6rem]
+  }

@@ -1,0 +1,38 @@
+.main-container-bg {
+  @apply relative h-[90vh] w-screen
+      flex 
+      flex-col
+    lg:bg-[url('src/assets/HeroSectionBackgroundImage.webp')]
+   bg-[url('src/assets/HeroSectionBackgroundImageMobile.webp')] 
+   bg-fixed   
+   /* fixed */
+
+   object-contain
+    bg-cover;
+}
+
+/* .hero-shade {
+  @apply top-[0] h-[20rem]  from-transparent;
+} */
+
+.hero-shade {
+  background: linear-gradient(to bottom, #ffff, transparent);
+  width: 100%;
+  height: 250px;
+}
+
+.main-container-text {
+  @apply absolute inset-[0] my-auto flex items-center justify-center flex-col;
+}
+
+.hero-title {
+  @apply md:text-[48px] mobile:text-[26px] font-bold text-[white];
+}
+
+.hero-sub-title {
+  @apply md:text-[1.6rem] mobile:text-2xl text-[white] font-bold;
+}
+
+.hero-button {
+  @apply h-[40px] bg-button rounded-[30px] mt-[1rem] w-[140px] font-semibold  text-[white];
+}

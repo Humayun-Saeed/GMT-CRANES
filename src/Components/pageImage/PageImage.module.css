@@ -1,0 +1,16 @@
+
+
+.image-container {
+    @apply relative h-screen w-screen flex flex-col fixed bg-center bg-cover
+}
+
+.main-container {
+    @apply mobile:bg-[url('src/assets/BackGroundImageMobile.png')] flex flex-col relative h-[80vh] bg-fixed bg-cover
+}
+
+
+.ios-background-fix {
+    @supports (-webkit-overflow-scrolling: touch) {
+      background-attachment: scroll;
+    }
+  }

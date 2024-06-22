@@ -1,0 +1,38 @@
+.image-gallery {
+ @apply  grid md:grid-cols-3 xl:grid-cols-3 xs:grid-cols-2  mobile:grid-cols-2 md:w-3/5 mobile:w-4/5 m-auto justify-center 
+  }
+  
+  .gallery-image {
+  @apply md:w-[200px] md:h-[200px] mobile:w-[120px] m-[0] cursor-pointer ml-[20px] mt-[20px] rounded-[20px]
+  }
+  
+  
+  
+  .modal-container {
+   @apply flex flex-col items-center justify-center fixed left-[0] top-[0] w-full z-50 h-full overflow-auto bg-[rgba(0,_0,_0,_0.9)] pt-[100px]
+  }
+  
+  .image-gallery {
+   @apply flex flex-wrap  max-w-[80%] w-full
+  }
+  .modal-content {
+  @apply w-4/5 max-w-[700px] h-auto
+  }
+  
+  .caption {
+  @apply text-center text-[#ccc] px-[0] py-[10px] h-[150px]
+  }
+  
+  .close {
+  @apply absolute top-[15px] right-[35px] text-[#f1f1f1] text-[40px] font-bold [transition:0.3s] cursor-pointer
+  }
+  
+  .close:hover,
+  .close:focus {
+   @apply text-[#bbb] no-underline
+  }
+  
+  .modal-image {
+    @apply w-[50px] max-w-[300px]
+  }
+  

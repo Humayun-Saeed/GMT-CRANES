@@ -1,0 +1,19 @@
+.companies-container {
+  @apply h-[44rem] flex flex-col items-center  justify-center  bg-[url('src/assets/Map-only-anim-1.gif')] w-[100%]  ;
+}
+
+.bg-container {
+  @apply absolute left-[0] top-[0] w-full h-full bg-[#1d1d1b] opacity-[0.3];
+}
+
+.companies-img {
+  @apply h-[44rem] w-full bg-cover ;
+}
+
+.companies-text {
+  @apply  mobile:mt-[14rem]   md:max-w-[70%] mobile:max-w-[100%] flex items-center flex-col mobile:p-[0.6rem] text-center;
+}
+
+.swiper-companies {
+  @apply  max-w-[60%]  mobile:max-w-[40%]
+}

@@ -1,0 +1,11 @@
+.about-container {
+  @apply flex  bg-[url('src/assets/AboutContainerImage.jpg')] min-h-[35rem] flex-col md:flex-row items-center justify-center;
+}
+
+.about-img {
+  @apply w-full h-auto  object-contain;
+}
+
+.text-container {
+  @apply w-full md:w-[55%] flex flex-col justify-center items-center text-center  px-[4px];
+}

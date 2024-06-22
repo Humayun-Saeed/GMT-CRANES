@@ -1,0 +1,34 @@
+.servicesContainer {
+  @apply flex flex-col m-auto justify-center items-center max-w-md h-[22rem] border-[1px] rounded-lg shadow-md;
+}
+
+.service-item-container {
+  @apply gap-[2rem] m-auto mobile:grid-cols-1 lg:grid-cols-3 grid md:grid-cols-2  lg:max-w-[100%] xl:max-w-[80%]   mt-[1.5rem] p-[1rem];
+}
+.servicesContainer a {
+  @apply block;
+}
+
+.servicesContainer img {
+  @apply rounded-tl-lg rounded-tr-lg w-full h-[13rem];
+}
+
+.servicesTitle {
+  @apply text-[1.25rem] font-bold text-[#333];
+}
+
+.servicesDescription {
+  @apply text-[1rem] text-[#666];
+}
+
+.read-more {
+  @apply underline;
+}
+
+.text-container {
+  @apply p-[1rem];
+}
+
+.image{
+  @apply object-fill w-full
+}

@@ -1,0 +1,47 @@
+/* .Opacity {
+    background: linear-gradient(to bottom, #ffeeca, transparent);
+    width: 100%;
+    height: 320px;
+  } */
+  
+  .header {
+    @apply h-[6.5rem]  fixed transition-all duration-500 z-[50] py-[3rem];
+  }
+ 
+  .logo-container {
+    @apply w-[28rem] flex justify-center items-center;
+  }
+  
+  .tab-container {
+    @apply w-[56rem];
+  }
+  
+  .contact-container {
+    @apply w-[33rem] pr-[4rem];
+  }
+  
+  .list-container {
+    @apply flex justify-center h-[50];
+  }
+  
+  .list {
+    @apply inline mx-[44px];
+  }
+  
+  .list:hover {
+    @apply underline cursor-pointer;
+  }
+  
+  .contact-us {
+    @apply w-[12rem] h-[3rem] bg-[#1d1d1b] items-center justify-center flex rounded-[10px] float-right;
+  }
+  
+  .main-logo-icon {
+    @apply h-[6.5rem] w-[9rem];
+  }
+  .main-container-text{
+    @apply  ml-[6rem] mt-[6rem]  max-w-[26rem] text-center
+  }
+  .contact-us > p {
+    @apply text-[white] text-[bold];
+  }

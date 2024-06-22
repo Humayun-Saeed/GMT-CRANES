@@ -28,7 +28,7 @@ jobs:
         server:  ftp.gmtcranes.com
         username: gmt@gmtcranes.com
         password: gmtcranes786
-        local-dir: ./dist/client
+        local-dir: ./dist/client/
 
 
        

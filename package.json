@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-    "scripts": {
+  "scripts": {
     "dev": "npm run rasengan:dev",
     "rasengan:dev": "node server",
     "rasengan:start": "cross-env NODE_ENV=production node server",

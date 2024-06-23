@@ -39,9 +39,9 @@ function Header(props: any) {
       className={`fixed w-full z-[50] transition-all duration-500 ${headerClass} `}
     >
       <div className="grid grid-flow-col  px-[4%]">
-        <div className="flex items-center   justify-start">
+        <div className="flex items-center justify-start">
           <Link to="/">
-            <img src={MainLogo} alt="gmt-logo" className="h-[7rem] " />
+            <img src={MainLogo} alt="gmt-logo" className="h-[10rem] " />
           </Link>
         </div>
         <ul className="flex items-center  justify-between col-span-2 row-start-2 gap-[4rem] lg:justify-start lg:col-span-1 lg:row-start-1">
@@ -60,7 +60,7 @@ function Header(props: any) {
             </li>
           ))}
         </ul>
-        <div className="flex  items-center justify-end">
+        <div className="flex items-center justify-end">
           <Link to={"/contact"}>
             <Button className="h-[3rem] w-[10rem] rounded-lg font-bold text-[white] bg-[red]">
               CONTACT US

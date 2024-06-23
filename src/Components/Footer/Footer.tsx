@@ -24,8 +24,9 @@ function Footer() {
           title: "info@gmail.com",
           icon: <HiOutlineMail size={20} color="gray" />,
         },
-        { title: "+971 50 617 9048", icon: <FaPhoneAlt size={20} color="gray" /> },
-        { title: "00971-50-6179701", icon: <FaPhoneAlt size={20} color="gray" /> },
+        { title: "00971-50 6179048", icon: <FaPhoneAlt size={20} color="gray" /> },
+        { title: "00971-50 6179701", icon: <FaPhoneAlt size={20} color="gray" /> },
+        { title: "00971-50 6179250", icon: <FaPhoneAlt size={20} color="gray" /> },
 
         
         {

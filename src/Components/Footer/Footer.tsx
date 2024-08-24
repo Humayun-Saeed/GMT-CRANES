@@ -6,8 +6,19 @@ import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { FiTwitter } from "react-icons/fi";
+import { FaFacebook } from "react-icons/fa6";
 
 function Footer() {
+
+  const handleinstagram = () => {
+    window.open("https://www.instagram.com/gmt_transport/");
+  }
+  const handleFacebook = () => {
+    window.open("https://www.facebook.com/GoldenMoonTransportuae?mibextid=uzlsIk");
+  }
+  const handleLinkedIn = () => {
+    window.open("https://www.linkedin.com/company/gmt-cranes-golden-moon-transport-llc/posts/?feedView=all");
+  }
   const footerData = [
     {
       title: "Company",
@@ -24,9 +35,8 @@ function Footer() {
           title: "info@gmail.com",
           icon: <HiOutlineMail size={20} color="gray" />,
         },
-        { title: "00971-50 6179048", icon: <FaPhoneAlt size={20} color="gray" /> },
-        { title: "00971-50 6179701", icon: <FaPhoneAlt size={20} color="gray" /> },
-        { title: "00971-50 6179250", icon: <FaPhoneAlt size={20} color="gray" /> },
+        { title: "+971 50 617 9048", icon: <FaPhoneAlt size={20} color="gray" /> },
+        { title: "00971-50-6179701", icon: <FaPhoneAlt size={20} color="gray" /> },
 
         
         {
@@ -105,9 +115,9 @@ function Footer() {
               <p>Copyright © 2023 GMT Crane Rentals · All Rights Reserved</p>
             </div>
             <div className={classes["footer-icons"]}>
-              <FaInstagram size={30} color="white" />
-              <FiTwitter size={30} color="white" />
-              <FaLinkedin size={30} color="white" />
+              <FaInstagram onClick={handleinstagram} size={30} color="white" />
+              <FaFacebook onClick={handleFacebook} size={30} color="white" />
+              <FaLinkedin onClick={handleLinkedIn} size={30} color="white" />
 
               {/* 
                 <img src={MobileCrane} alt="Twitter" />

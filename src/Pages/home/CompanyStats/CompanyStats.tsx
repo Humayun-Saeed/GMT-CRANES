@@ -1,10 +1,10 @@
 import CountUp from 'react-countup';
 export const CompanyStats = () => {
   const stats = [
-    { number: "20", text: "Satisfied Clients" },
+    { number: "300", text: "Satisfied Clients" },
     { number: "400", text: "Completed Projects" },
     { number: "50", text: "Team Member" },
-    { number: "15", text: "Years Experience" },
+    { number: "20", text: "Years Experience" },
   ];
   return (
     <div className="md:h-[18rem] mobile:h-[30rem] mt-[2rem]  w-screen bg-[rgb(247,247,247)]">

@@ -19,6 +19,7 @@ function Footer() {
   const handleLinkedIn = () => {
     window.open("https://www.linkedin.com/company/gmt-cranes-golden-moon-transport-llc/posts/?feedView=all");
   }
+  
   const footerData = [
     {
       title: "Company",
